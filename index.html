@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Melina Pierini</title>
+    <style>
+        body {
+            background-color: rgb(247, 226, 241);
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>  <u>FORMULARIO DE INSCRIPCION A LA ACADEMIA DEPORTIVA</u> </h1>
+    <form action="envio.php" method="post" target="_blank">
+        <br>
+<label for="usuario">USUARIO:</label> 
+<input type="text" id="usuario" size="tamaño"
+ name="nombre" placeholder="Escribe aqui tu usuario" required>
+
+<small>campo obligatorio</small> 
+&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp <label for="nombre">NOMBRE COMPLETO:</label>
+  <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre completo" required>
+  <small>campo obligatorio</small> 
+
+<br>
+
+<label for="Clave"> CLAVE</label>
+<input type="password" id="password" size="tamaño"
+ name="password" placeholder="Escribe aqui tu contraseña" required>
+<small>campo obligatorio</small>
+<br>
+<label for="email"> CORREO ELECTRONICO</label>
+<input type="email" id="email" size="tamaño"
+name="email" placeholder="Escribe tu email" required>
+<br>
+<label for="edad">EDAD:</label>
+<input type="number" id="usuario" size="tamaño"
+name="nombre" placeholder="Selecciona tu edad"> 
+<br>
+
+<label for="genero">GENERO:</label>
+<input type="radio" name="genero" value="Femenino"> Femenino
+<input type="radio" name="genero" value="Masculino"> Maculino
+
+<hr>
+<br>
+<h3>HISTORIAL DE ACTIVIDADES DEL USUARIO</h3>
+<label for="actividad">Selecciona tu actividad actual</label>
+<select name="actividad" id="actividad">
+    <optgroup label="Danzas">
+        <option value="Contemporanea">Danza Contemporanea</option>
+        <option value="Clasica">Danza Clasica</option>
+        <option value="Jazz">Danza Jazz</option>
+        <option value="Arabe">Danza Arabe</option>
+        <option value="Aerea">Danza Aerea</option>
+        <option value="Otro">Otro</option>
+    </optgroup>
+    <optgroup label="Deportes">
+        <option value="Voley">Voley</option>
+        <option value="Handball">Handball</option>
+        <option value="Futbol">Futbol</option>
+        <option value="Hockey">Hockey</option>
+        <option value="Tennis">Tennis</option>
+        <option value="Natacion">Natacion</option>
+        <option value="Otro">Otro</option>
+        <optgroup label="Yoga">
+            <option value="">Yoga</option>
+        </optgroup>
+        <optgroup label="Otras">
+            <option value="Otras">Otras</option>
+        </optgroup> 
+         
+        
+        </select>
+
+        &nbsp;&nbsp;&nbsp <label for="opinion">Si tu respuesta fue "Otras" agregala aqui:</label>
+    <textarea type="file" id="opinion" size="opinion"  cols="20" rows="01"
+    name="opinion" placeholder="agrega otros"></textarea>
+    <br>
+    <br>
+<label for="actividad">Años entrenando</label>
+<input type="number" id="usuario" size="tamaño"
+name="nombre" placeholder="Años entrenando">
+<br>
+<br>
+<label for="horarios">Horarios disponibles:</label>
+<input type="checkbox" id="manana" name="horarios" value="mañana">
+<label for="manana">Mañana</label>
+<input type="checkbox" id="tarde" name="horarios" value="tarde">
+<label for="tarde">Tarde</label>
+<input type="checkbox" id="noche" name="horarios" value="noche">
+<label for="noche">Noche</label>
+
+<br>
+<br>
+<br>
+<h4> Por favor suba un video corto (maximo 1 minuto) realizando dicha actividad,  este video debe ser su presentacion para nuestro programa y nos permitira evaluar sus habilidades.
+   <br>
+    Asegurese de que su video sea claro y de buena calidad.</h4>
+
+<label for="archivo">Subi tu video de prueba</label>
+<input type="file" id="archivo" size="tamaño"
+name="archivo" value="file">
+<br>
+<br>
+<br>
+<br>
+<label for="opinion">Objetivos y aspiraciones de unirse a la academia:</label>
+<br>
+    <textarea type="file" id="opinion" size="opinion"  cols="100" rows="5"
+    name="opinion" placeholder="Describe tus objetivos"></textarea>
+<br>
+<br>
+<input type="submit" value="Enviar datos">
+<input type="reset" value="Resetear datos">
+<br>
+<br>
+<br>
+
+
+<img src="imagen deportiva.jpg" alt="imagen ilustrativa">
+<br>
+
+
+    </form>
+</body>
+</html>
